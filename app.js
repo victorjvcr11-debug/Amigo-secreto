@@ -2,7 +2,7 @@
 let listaNombres = [];
 
 //Crear funcion para agregar a array 
-function agregarAmigo() {
+function agregarAmigo() { //
     let recuadroNames = document.getElementById('amigo').value; // Seleccionar elemento y obtiener el valor escrito en el recuadro o elemento.
     if (recuadroNames == ''){ //String vacio
         alert('Por favor ingrese un nombre');
