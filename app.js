@@ -15,12 +15,12 @@ function agregarAmigo() { //
 }
 
 function mostrarLista(input) {
-    let lista = document.getElementById('listaAmigos'); //Selecionar objeto de recuadro de texto
+    let lista = document.getElementById('listaAmigos'); //Selecionar objeto el cual es una lista no ordenada 
     lista.innerHTML = ''; //Limpiar texto dentro del objeto.
     for (let i = 0; i < input.length; i++){   
         //document.getElementById("listaAmigos").value = '';
         //Creacion del nodo o objeto.
-        const NodoLista = document.createElement('li'); // <li> se usa para crear un elemento de lista.
+        const NodoLista = document.createElement('li'); // <li> se usa para crear O definfir un elemento dentro de la lista <ul>.
         //Seleccionar elemento <li> y su atributo textContent
         NodoLista.textContent = input[i]; // Usar texto dentro del objeto o elemento y agregarle  texto.
         //Agregar o 'vincular' elemento al codigo HTML
